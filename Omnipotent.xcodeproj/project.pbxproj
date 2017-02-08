@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1134E44B1D82F03B00D2DD83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E44A1D82F03B00D2DD83 /* main.m */; };
+		1134E44E1D82F03B00D2DD83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E44D1D82F03B00D2DD83 /* AppDelegate.m */; };
+		1134E4511D82F03B00D2DD83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4501D82F03B00D2DD83 /* ViewController.m */; };
+		1134E4541D82F03B00D2DD83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4521D82F03B00D2DD83 /* Main.storyboard */; };
+		1134E4561D82F03B00D2DD83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4551D82F03B00D2DD83 /* Assets.xcassets */; };
+		1134E4591D82F03B00D2DD83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4571D82F03B00D2DD83 /* LaunchScreen.storyboard */; };
+		1134E4781D82F1FC00D2DD83 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E46F1D82F1FC00D2DD83 /* GuideViewController.m */; };
+		1134E4791D82F1FC00D2DD83 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4711D82F1FC00D2DD83 /* RootViewController.m */; };
+		1134E47A1D82F1FC00D2DD83 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4731D82F1FC00D2DD83 /* UIView+Extension.m */; };
+		1134E47B1D82F1FC00D2DD83 /* ZVBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4751D82F1FC00D2DD83 /* ZVBarButtonItem.m */; };
+		1134E47C1D82F1FC00D2DD83 /* ZVNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4771D82F1FC00D2DD83 /* ZVNavigationController.m */; };
+		1134E4941D82F65300D2DD83 /* ChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4921D82F65300D2DD83 /* ChallengeViewController.m */; };
+		1134E4951D82F65300D2DD83 /* ChallengeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4931D82F65300D2DD83 /* ChallengeViewController.xib */; };
+		1134E4991D82F66B00D2DD83 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4971D82F66B00D2DD83 /* FindViewController.m */; };
+		1134E49A1D82F66B00D2DD83 /* FindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4981D82F66B00D2DD83 /* FindViewController.xib */; };
+		1134E49E1D82F68000D2DD83 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E49C1D82F68000D2DD83 /* GameViewController.m */; };
+		1134E49F1D82F68000D2DD83 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E49D1D82F68000D2DD83 /* GameViewController.xib */; };
+		1134E4A31D82F69300D2DD83 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4A11D82F69300D2DD83 /* MeViewController.m */; };
+		1134E4A41D82F69300D2DD83 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4A21D82F69300D2DD83 /* MeViewController.xib */; };
+		1134E4A71D864C7500D2DD83 /* TurnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4A61D864C7500D2DD83 /* TurnTableView.m */; };
+		1134E4AB1D8681BB00D2DD83 /* AddGuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4A91D8681BB00D2DD83 /* AddGuessViewController.m */; };
+		1134E4AC1D8681BB00D2DD83 /* AddGuessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4AA1D8681BB00D2DD83 /* AddGuessViewController.xib */; };
+		1134E4B01D8681FA00D2DD83 /* GuessListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4AE1D8681FA00D2DD83 /* GuessListViewController.m */; };
+		1134E4B11D8681FA00D2DD83 /* GuessListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4AF1D8681FA00D2DD83 /* GuessListViewController.xib */; };
+		1134E4B51D86822E00D2DD83 /* JoinGuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4B31D86822E00D2DD83 /* JoinGuessViewController.m */; };
+		1134E4B61D86822E00D2DD83 /* JoinGuessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4B41D86822E00D2DD83 /* JoinGuessViewController.xib */; };
+		1134E4BA1D8685E200D2DD83 /* FindInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4B81D8685E200D2DD83 /* FindInfoViewController.m */; };
+		1134E4BB1D8685E200D2DD83 /* FindInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4B91D8685E200D2DD83 /* FindInfoViewController.xib */; };
+		1134E4BF1D87BBA500D2DD83 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4BD1D87BBA500D2DD83 /* PersonalViewController.m */; };
+		1134E4C01D87BBA500D2DD83 /* PersonalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4BE1D87BBA500D2DD83 /* PersonalViewController.xib */; };
+		1134E4C41D87BBD400D2DD83 /* SecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4C21D87BBD400D2DD83 /* SecurityViewController.m */; };
+		1134E4C51D87BBD400D2DD83 /* SecurityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4C31D87BBD400D2DD83 /* SecurityViewController.xib */; };
+		1134E4C91D87BBF200D2DD83 /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4C71D87BBF200D2DD83 /* SystemViewController.m */; };
+		1134E4CA1D87BBF200D2DD83 /* SystemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4C81D87BBF200D2DD83 /* SystemViewController.xib */; };
+		1134E4CE1D87BC0300D2DD83 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4CC1D87BC0300D2DD83 /* AboutViewController.m */; };
+		1134E4CF1D87BC0300D2DD83 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4CD1D87BC0300D2DD83 /* AboutViewController.xib */; };
+		1134E4D31D87D36B00D2DD83 /* VerifyPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4D11D87D36B00D2DD83 /* VerifyPhoneViewController.m */; };
+		1134E4D41D87D36B00D2DD83 /* VerifyPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4D21D87D36B00D2DD83 /* VerifyPhoneViewController.xib */; };
+		1134E4D81D87D39A00D2DD83 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4D61D87D39A00D2DD83 /* ChangePasswordViewController.m */; };
+		1134E4D91D87D39A00D2DD83 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4D71D87D39A00D2DD83 /* ChangePasswordViewController.xib */; };
+		1134E4E11D87D59100D2DD83 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4DF1D87D59100D2DD83 /* LoginViewController.m */; };
+		1134E4E21D87D59100D2DD83 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4E01D87D59100D2DD83 /* LoginViewController.xib */; };
+		1134E4E61D87D5C300D2DD83 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134E4E41D87D5C300D2DD83 /* RegisterViewController.m */; };
+		1134E4E71D87D5C300D2DD83 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1134E4E51D87D5C300D2DD83 /* RegisterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1134E4461D82F03B00D2DD83 /* Omnipotent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omnipotent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1134E44A1D82F03B00D2DD83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1134E44C1D82F03B00D2DD83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1134E44D1D82F03B00D2DD83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1134E44F1D82F03B00D2DD83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1134E4501D82F03B00D2DD83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1134E4531D82F03B00D2DD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1134E4551D82F03B00D2DD83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1134E4581D82F03B00D2DD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1134E45A1D82F03B00D2DD83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1134E4621D82F1FC00D2DD83 /* APPMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPMacros.h; sourceTree = "<group>"; };
+		1134E4631D82F1FC00D2DD83 /* BLEMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEMacros.h; sourceTree = "<group>"; };
+		1134E4641D82F1FC00D2DD83 /* CertificateMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateMacros.h; sourceTree = "<group>"; };
+		1134E4651D82F1FC00D2DD83 /* CoreDataMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataMacros.h; sourceTree = "<group>"; };
+		1134E4661D82F1FC00D2DD83 /* EquipmentMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipmentMacros.h; sourceTree = "<group>"; };
+		1134E4671D82F1FC00D2DD83 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		1134E4681D82F1FC00D2DD83 /* NetworkMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMacros.h; sourceTree = "<group>"; };
+		1134E4691D82F1FC00D2DD83 /* NotificationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacros.h; sourceTree = "<group>"; };
+		1134E46A1D82F1FC00D2DD83 /* OtherFrameMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherFrameMacros.h; sourceTree = "<group>"; };
+		1134E46B1D82F1FC00D2DD83 /* UserDefaultsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsMacros.h; sourceTree = "<group>"; };
+		1134E46C1D82F1FC00D2DD83 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		1134E46E1D82F1FC00D2DD83 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		1134E46F1D82F1FC00D2DD83 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		1134E4701D82F1FC00D2DD83 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1134E4711D82F1FC00D2DD83 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1134E4721D82F1FC00D2DD83 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		1134E4731D82F1FC00D2DD83 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		1134E4741D82F1FC00D2DD83 /* ZVBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVBarButtonItem.h; sourceTree = "<group>"; };
+		1134E4751D82F1FC00D2DD83 /* ZVBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVBarButtonItem.m; sourceTree = "<group>"; };
+		1134E4761D82F1FC00D2DD83 /* ZVNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVNavigationController.h; sourceTree = "<group>"; };
+		1134E4771D82F1FC00D2DD83 /* ZVNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVNavigationController.m; sourceTree = "<group>"; };
+		1134E4911D82F65300D2DD83 /* ChallengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeViewController.h; sourceTree = "<group>"; };
+		1134E4921D82F65300D2DD83 /* ChallengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeViewController.m; sourceTree = "<group>"; };
+		1134E4931D82F65300D2DD83 /* ChallengeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChallengeViewController.xib; sourceTree = "<group>"; };
+		1134E4961D82F66B00D2DD83 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		1134E4971D82F66B00D2DD83 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		1134E4981D82F66B00D2DD83 /* FindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindViewController.xib; sourceTree = "<group>"; };
+		1134E49B1D82F68000D2DD83 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1134E49C1D82F68000D2DD83 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		1134E49D1D82F68000D2DD83 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		1134E4A01D82F69300D2DD83 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		1134E4A11D82F69300D2DD83 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		1134E4A21D82F69300D2DD83 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		1134E4A51D864C7500D2DD83 /* TurnTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnTableView.h; sourceTree = "<group>"; };
+		1134E4A61D864C7500D2DD83 /* TurnTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurnTableView.m; sourceTree = "<group>"; };
+		1134E4A81D8681BB00D2DD83 /* AddGuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGuessViewController.h; sourceTree = "<group>"; };
+		1134E4A91D8681BB00D2DD83 /* AddGuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGuessViewController.m; sourceTree = "<group>"; };
+		1134E4AA1D8681BB00D2DD83 /* AddGuessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddGuessViewController.xib; sourceTree = "<group>"; };
+		1134E4AD1D8681FA00D2DD83 /* GuessListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessListViewController.h; sourceTree = "<group>"; };
+		1134E4AE1D8681FA00D2DD83 /* GuessListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessListViewController.m; sourceTree = "<group>"; };
+		1134E4AF1D8681FA00D2DD83 /* GuessListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuessListViewController.xib; sourceTree = "<group>"; };
+		1134E4B21D86822E00D2DD83 /* JoinGuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinGuessViewController.h; sourceTree = "<group>"; };
+		1134E4B31D86822E00D2DD83 /* JoinGuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinGuessViewController.m; sourceTree = "<group>"; };
+		1134E4B41D86822E00D2DD83 /* JoinGuessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinGuessViewController.xib; sourceTree = "<group>"; };
+		1134E4B71D8685E200D2DD83 /* FindInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindInfoViewController.h; sourceTree = "<group>"; };
+		1134E4B81D8685E200D2DD83 /* FindInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindInfoViewController.m; sourceTree = "<group>"; };
+		1134E4B91D8685E200D2DD83 /* FindInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindInfoViewController.xib; sourceTree = "<group>"; };
+		1134E4BC1D87BBA400D2DD83 /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		1134E4BD1D87BBA500D2DD83 /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		1134E4BE1D87BBA500D2DD83 /* PersonalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalViewController.xib; sourceTree = "<group>"; };
+		1134E4C11D87BBD400D2DD83 /* SecurityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityViewController.h; sourceTree = "<group>"; };
+		1134E4C21D87BBD400D2DD83 /* SecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityViewController.m; sourceTree = "<group>"; };
+		1134E4C31D87BBD400D2DD83 /* SecurityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecurityViewController.xib; sourceTree = "<group>"; };
+		1134E4C61D87BBF200D2DD83 /* SystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemViewController.h; sourceTree = "<group>"; };
+		1134E4C71D87BBF200D2DD83 /* SystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemViewController.m; sourceTree = "<group>"; };
+		1134E4C81D87BBF200D2DD83 /* SystemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemViewController.xib; sourceTree = "<group>"; };
+		1134E4CB1D87BC0300D2DD83 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		1134E4CC1D87BC0300D2DD83 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		1134E4CD1D87BC0300D2DD83 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		1134E4D01D87D36B00D2DD83 /* VerifyPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyPhoneViewController.h; sourceTree = "<group>"; };
+		1134E4D11D87D36B00D2DD83 /* VerifyPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyPhoneViewController.m; sourceTree = "<group>"; };
+		1134E4D21D87D36B00D2DD83 /* VerifyPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyPhoneViewController.xib; sourceTree = "<group>"; };
+		1134E4D51D87D39A00D2DD83 /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		1134E4D61D87D39A00D2DD83 /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		1134E4D71D87D39A00D2DD83 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		1134E4DE1D87D59100D2DD83 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1134E4DF1D87D59100D2DD83 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1134E4E01D87D59100D2DD83 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		1134E4E31D87D5C300D2DD83 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		1134E4E41D87D5C300D2DD83 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		1134E4E51D87D5C300D2DD83 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1134E4431D82F03B00D2DD83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1134E43D1D82F03A00D2DD83 = {
+			isa = PBXGroup;
+			children = (
+				1134E4481D82F03B00D2DD83 /* Omnipotent */,
+				1134E4471D82F03B00D2DD83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1134E4471D82F03B00D2DD83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4461D82F03B00D2DD83 /* Omnipotent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1134E4481D82F03B00D2DD83 /* Omnipotent */ = {
+			isa = PBXGroup;
+			children = (
+				1134E44C1D82F03B00D2DD83 /* AppDelegate.h */,
+				1134E44D1D82F03B00D2DD83 /* AppDelegate.m */,
+				1134E4DA1D87D56900D2DD83 /* Login */,
+				1134E4811D82F62800D2DD83 /* Challenge */,
+				1134E4891D82F62800D2DD83 /* Game */,
+				1134E4851D82F62800D2DD83 /* Find */,
+				1134E48D1D82F62800D2DD83 /* Me */,
+				1134E4601D82F1FC00D2DD83 /* Other */,
+				1134E4551D82F03B00D2DD83 /* Assets.xcassets */,
+				1134E4491D82F03B00D2DD83 /* Supporting Files */,
+			);
+			path = Omnipotent;
+			sourceTree = "<group>";
+		};
+		1134E4491D82F03B00D2DD83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4571D82F03B00D2DD83 /* LaunchScreen.storyboard */,
+				1134E44F1D82F03B00D2DD83 /* ViewController.h */,
+				1134E4501D82F03B00D2DD83 /* ViewController.m */,
+				1134E4521D82F03B00D2DD83 /* Main.storyboard */,
+				1134E44A1D82F03B00D2DD83 /* main.m */,
+				1134E45A1D82F03B00D2DD83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1134E4601D82F1FC00D2DD83 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4611D82F1FC00D2DD83 /* Macros */,
+				1134E46D1D82F1FC00D2DD83 /* TabBarNavigation */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1134E4611D82F1FC00D2DD83 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4621D82F1FC00D2DD83 /* APPMacros.h */,
+				1134E4631D82F1FC00D2DD83 /* BLEMacros.h */,
+				1134E4641D82F1FC00D2DD83 /* CertificateMacros.h */,
+				1134E4651D82F1FC00D2DD83 /* CoreDataMacros.h */,
+				1134E4661D82F1FC00D2DD83 /* EquipmentMacros.h */,
+				1134E4671D82F1FC00D2DD83 /* Macros.h */,
+				1134E4681D82F1FC00D2DD83 /* NetworkMacros.h */,
+				1134E4691D82F1FC00D2DD83 /* NotificationMacros.h */,
+				1134E46A1D82F1FC00D2DD83 /* OtherFrameMacros.h */,
+				1134E46B1D82F1FC00D2DD83 /* UserDefaultsMacros.h */,
+				1134E46C1D82F1FC00D2DD83 /* UtilsMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		1134E46D1D82F1FC00D2DD83 /* TabBarNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				1134E46E1D82F1FC00D2DD83 /* GuideViewController.h */,
+				1134E46F1D82F1FC00D2DD83 /* GuideViewController.m */,
+				1134E4701D82F1FC00D2DD83 /* RootViewController.h */,
+				1134E4711D82F1FC00D2DD83 /* RootViewController.m */,
+				1134E4721D82F1FC00D2DD83 /* UIView+Extension.h */,
+				1134E4731D82F1FC00D2DD83 /* UIView+Extension.m */,
+				1134E4741D82F1FC00D2DD83 /* ZVBarButtonItem.h */,
+				1134E4751D82F1FC00D2DD83 /* ZVBarButtonItem.m */,
+				1134E4761D82F1FC00D2DD83 /* ZVNavigationController.h */,
+				1134E4771D82F1FC00D2DD83 /* ZVNavigationController.m */,
+			);
+			path = TabBarNavigation;
+			sourceTree = "<group>";
+		};
+		1134E4811D82F62800D2DD83 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4821D82F62800D2DD83 /* Controller */,
+				1134E4831D82F62800D2DD83 /* Model */,
+				1134E4841D82F62800D2DD83 /* View */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+		1134E4821D82F62800D2DD83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4911D82F65300D2DD83 /* ChallengeViewController.h */,
+				1134E4921D82F65300D2DD83 /* ChallengeViewController.m */,
+				1134E4931D82F65300D2DD83 /* ChallengeViewController.xib */,
+				1134E4A81D8681BB00D2DD83 /* AddGuessViewController.h */,
+				1134E4A91D8681BB00D2DD83 /* AddGuessViewController.m */,
+				1134E4AA1D8681BB00D2DD83 /* AddGuessViewController.xib */,
+				1134E4AD1D8681FA00D2DD83 /* GuessListViewController.h */,
+				1134E4AE1D8681FA00D2DD83 /* GuessListViewController.m */,
+				1134E4AF1D8681FA00D2DD83 /* GuessListViewController.xib */,
+				1134E4B21D86822E00D2DD83 /* JoinGuessViewController.h */,
+				1134E4B31D86822E00D2DD83 /* JoinGuessViewController.m */,
+				1134E4B41D86822E00D2DD83 /* JoinGuessViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1134E4831D82F62800D2DD83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1134E4841D82F62800D2DD83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1134E4851D82F62800D2DD83 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4861D82F62800D2DD83 /* Controller */,
+				1134E4871D82F62800D2DD83 /* Model */,
+				1134E4881D82F62800D2DD83 /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		1134E4861D82F62800D2DD83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4961D82F66B00D2DD83 /* FindViewController.h */,
+				1134E4971D82F66B00D2DD83 /* FindViewController.m */,
+				1134E4981D82F66B00D2DD83 /* FindViewController.xib */,
+				1134E4B71D8685E200D2DD83 /* FindInfoViewController.h */,
+				1134E4B81D8685E200D2DD83 /* FindInfoViewController.m */,
+				1134E4B91D8685E200D2DD83 /* FindInfoViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1134E4871D82F62800D2DD83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1134E4881D82F62800D2DD83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1134E4891D82F62800D2DD83 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				1134E48A1D82F62800D2DD83 /* Controller */,
+				1134E48B1D82F62800D2DD83 /* Model */,
+				1134E48C1D82F62800D2DD83 /* View */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		1134E48A1D82F62800D2DD83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1134E49B1D82F68000D2DD83 /* GameViewController.h */,
+				1134E49C1D82F68000D2DD83 /* GameViewController.m */,
+				1134E49D1D82F68000D2DD83 /* GameViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1134E48B1D82F62800D2DD83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1134E48C1D82F62800D2DD83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4A51D864C7500D2DD83 /* TurnTableView.h */,
+				1134E4A61D864C7500D2DD83 /* TurnTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1134E48D1D82F62800D2DD83 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				1134E48E1D82F62800D2DD83 /* Controller */,
+				1134E48F1D82F62800D2DD83 /* Model */,
+				1134E4901D82F62800D2DD83 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1134E48E1D82F62800D2DD83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4A01D82F69300D2DD83 /* MeViewController.h */,
+				1134E4A11D82F69300D2DD83 /* MeViewController.m */,
+				1134E4A21D82F69300D2DD83 /* MeViewController.xib */,
+				1134E4BC1D87BBA400D2DD83 /* PersonalViewController.h */,
+				1134E4BD1D87BBA500D2DD83 /* PersonalViewController.m */,
+				1134E4BE1D87BBA500D2DD83 /* PersonalViewController.xib */,
+				1134E4C11D87BBD400D2DD83 /* SecurityViewController.h */,
+				1134E4C21D87BBD400D2DD83 /* SecurityViewController.m */,
+				1134E4C31D87BBD400D2DD83 /* SecurityViewController.xib */,
+				1134E4C61D87BBF200D2DD83 /* SystemViewController.h */,
+				1134E4C71D87BBF200D2DD83 /* SystemViewController.m */,
+				1134E4C81D87BBF200D2DD83 /* SystemViewController.xib */,
+				1134E4CB1D87BC0300D2DD83 /* AboutViewController.h */,
+				1134E4CC1D87BC0300D2DD83 /* AboutViewController.m */,
+				1134E4CD1D87BC0300D2DD83 /* AboutViewController.xib */,
+				1134E4D01D87D36B00D2DD83 /* VerifyPhoneViewController.h */,
+				1134E4D11D87D36B00D2DD83 /* VerifyPhoneViewController.m */,
+				1134E4D21D87D36B00D2DD83 /* VerifyPhoneViewController.xib */,
+				1134E4D51D87D39A00D2DD83 /* ChangePasswordViewController.h */,
+				1134E4D61D87D39A00D2DD83 /* ChangePasswordViewController.m */,
+				1134E4D71D87D39A00D2DD83 /* ChangePasswordViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1134E48F1D82F62800D2DD83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1134E4901D82F62800D2DD83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1134E4DA1D87D56900D2DD83 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4DB1D87D56900D2DD83 /* Controller */,
+				1134E4DC1D87D56900D2DD83 /* Model */,
+				1134E4DD1D87D56900D2DD83 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1134E4DB1D87D56900D2DD83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1134E4DE1D87D59100D2DD83 /* LoginViewController.h */,
+				1134E4DF1D87D59100D2DD83 /* LoginViewController.m */,
+				1134E4E01D87D59100D2DD83 /* LoginViewController.xib */,
+				1134E4E31D87D5C300D2DD83 /* RegisterViewController.h */,
+				1134E4E41D87D5C300D2DD83 /* RegisterViewController.m */,
+				1134E4E51D87D5C300D2DD83 /* RegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1134E4DC1D87D56900D2DD83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1134E4DD1D87D56900D2DD83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1134E4451D82F03B00D2DD83 /* Omnipotent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1134E45D1D82F03B00D2DD83 /* Build configuration list for PBXNativeTarget "Omnipotent" */;
+			buildPhases = (
+				1134E4421D82F03B00D2DD83 /* Sources */,
+				1134E4431D82F03B00D2DD83 /* Frameworks */,
+				1134E4441D82F03B00D2DD83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omnipotent;
+			productName = Omnipotent;
+			productReference = 1134E4461D82F03B00D2DD83 /* Omnipotent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1134E43E1D82F03A00D2DD83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiwangtech.com;
+				TargetAttributes = {
+					1134E4451D82F03B00D2DD83 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1134E4411D82F03A00D2DD83 /* Build configuration list for PBXProject "Omnipotent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1134E43D1D82F03A00D2DD83;
+			productRefGroup = 1134E4471D82F03B00D2DD83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1134E4451D82F03B00D2DD83 /* Omnipotent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1134E4441D82F03B00D2DD83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1134E49A1D82F66B00D2DD83 /* FindViewController.xib in Resources */,
+				1134E4D91D87D39A00D2DD83 /* ChangePasswordViewController.xib in Resources */,
+				1134E4B11D8681FA00D2DD83 /* GuessListViewController.xib in Resources */,
+				1134E4591D82F03B00D2DD83 /* LaunchScreen.storyboard in Resources */,
+				1134E4CA1D87BBF200D2DD83 /* SystemViewController.xib in Resources */,
+				1134E4CF1D87BC0300D2DD83 /* AboutViewController.xib in Resources */,
+				1134E4C51D87BBD400D2DD83 /* SecurityViewController.xib in Resources */,
+				1134E4BB1D8685E200D2DD83 /* FindInfoViewController.xib in Resources */,
+				1134E4E21D87D59100D2DD83 /* LoginViewController.xib in Resources */,
+				1134E4AC1D8681BB00D2DD83 /* AddGuessViewController.xib in Resources */,
+				1134E49F1D82F68000D2DD83 /* GameViewController.xib in Resources */,
+				1134E4561D82F03B00D2DD83 /* Assets.xcassets in Resources */,
+				1134E4B61D86822E00D2DD83 /* JoinGuessViewController.xib in Resources */,
+				1134E4951D82F65300D2DD83 /* ChallengeViewController.xib in Resources */,
+				1134E4D41D87D36B00D2DD83 /* VerifyPhoneViewController.xib in Resources */,
+				1134E4541D82F03B00D2DD83 /* Main.storyboard in Resources */,
+				1134E4E71D87D5C300D2DD83 /* RegisterViewController.xib in Resources */,
+				1134E4C01D87BBA500D2DD83 /* PersonalViewController.xib in Resources */,
+				1134E4A41D82F69300D2DD83 /* MeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1134E4421D82F03B00D2DD83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1134E4D31D87D36B00D2DD83 /* VerifyPhoneViewController.m in Sources */,
+				1134E4BF1D87BBA500D2DD83 /* PersonalViewController.m in Sources */,
+				1134E47A1D82F1FC00D2DD83 /* UIView+Extension.m in Sources */,
+				1134E49E1D82F68000D2DD83 /* GameViewController.m in Sources */,
+				1134E4CE1D87BC0300D2DD83 /* AboutViewController.m in Sources */,
+				1134E4BA1D8685E200D2DD83 /* FindInfoViewController.m in Sources */,
+				1134E4511D82F03B00D2DD83 /* ViewController.m in Sources */,
+				1134E4781D82F1FC00D2DD83 /* GuideViewController.m in Sources */,
+				1134E4E11D87D59100D2DD83 /* LoginViewController.m in Sources */,
+				1134E4941D82F65300D2DD83 /* ChallengeViewController.m in Sources */,
+				1134E47B1D82F1FC00D2DD83 /* ZVBarButtonItem.m in Sources */,
+				1134E4AB1D8681BB00D2DD83 /* AddGuessViewController.m in Sources */,
+				1134E4C91D87BBF200D2DD83 /* SystemViewController.m in Sources */,
+				1134E4A31D82F69300D2DD83 /* MeViewController.m in Sources */,
+				1134E4B01D8681FA00D2DD83 /* GuessListViewController.m in Sources */,
+				1134E4E61D87D5C300D2DD83 /* RegisterViewController.m in Sources */,
+				1134E44E1D82F03B00D2DD83 /* AppDelegate.m in Sources */,
+				1134E4B51D86822E00D2DD83 /* JoinGuessViewController.m in Sources */,
+				1134E44B1D82F03B00D2DD83 /* main.m in Sources */,
+				1134E4991D82F66B00D2DD83 /* FindViewController.m in Sources */,
+				1134E4D81D87D39A00D2DD83 /* ChangePasswordViewController.m in Sources */,
+				1134E4C41D87BBD400D2DD83 /* SecurityViewController.m in Sources */,
+				1134E4791D82F1FC00D2DD83 /* RootViewController.m in Sources */,
+				1134E47C1D82F1FC00D2DD83 /* ZVNavigationController.m in Sources */,
+				1134E4A71D864C7500D2DD83 /* TurnTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1134E4521D82F03B00D2DD83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1134E4531D82F03B00D2DD83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1134E4571D82F03B00D2DD83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1134E4581D82F03B00D2DD83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1134E45B1D82F03B00D2DD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1134E45C1D82F03B00D2DD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1134E45E1D82F03B00D2DD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omnipotent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiwangtech.Omnipotent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1134E45F1D82F03B00D2DD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omnipotent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiwangtech.Omnipotent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1134E4411D82F03A00D2DD83 /* Build configuration list for PBXProject "Omnipotent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1134E45B1D82F03B00D2DD83 /* Debug */,
+				1134E45C1D82F03B00D2DD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1134E45D1D82F03B00D2DD83 /* Build configuration list for PBXNativeTarget "Omnipotent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1134E45E1D82F03B00D2DD83 /* Debug */,
+				1134E45F1D82F03B00D2DD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1134E43E1D82F03A00D2DD83 /* Project object */;
+}
